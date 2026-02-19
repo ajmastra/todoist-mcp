@@ -1,6 +1,10 @@
 # Todoist Meeting MCP
 
+[![CI](https://github.com/YOUR_ORG/todoist-meeting-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_ORG/todoist-meeting-mcp/actions/workflows/ci.yml)
+[![Release](https://github.com/YOUR_ORG/todoist-meeting-mcp/actions/workflows/release.yml/badge.svg)](https://github.com/YOUR_ORG/todoist-meeting-mcp/actions/workflows/release.yml)
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+> **Replace `YOUR_ORG` in the badge URLs with your GitHub username or org** so the badges reflect your repo’s CI and release status.
 
 A production-ready **Model Context Protocol (MCP)** server that connects Claude with Todoist for intelligent meeting note processing. Parse meeting notes into actionable Todoist tasks with inferred due dates and priorities, create and complete tasks by name, and list projects and tasks—all through natural language in Claude.
 
@@ -113,6 +117,10 @@ From the project root:
 # Install dependencies
 npm ci
 
+# Typecheck and lint (same as CI)
+npm run typecheck
+npm run lint
+
 # Build (single file to dist/index.js)
 npm run build
 
@@ -126,6 +134,16 @@ For development with auto-reload:
 ```bash
 npm run dev
 ```
+
+### Code quality (CI)
+
+On every push and pull request to `main`/`master`, the [CI workflow](.github/workflows/ci.yml) runs:
+
+- **Typecheck** — `tsc --noEmit`
+- **Lint** — ESLint (TypeScript) on `src/`
+- **Build** — `npm run build`
+
+The badges at the top show the status of the [CI](.github/workflows/ci.yml) and [Release](.github/workflows/release.yml) workflows once you set `YOUR_ORG` to your GitHub org or username.
 
 ---
 
