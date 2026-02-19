@@ -91,7 +91,7 @@ export class TodoistClient {
       ...(params.projectId != null && { projectId: params.projectId }),
       ...(params.sectionId != null && params.sectionId !== "" && { sectionId: params.sectionId }),
       ...(params.priority != null && { priority: params.priority }),
-      ...(params.parentId != null && params.parentId !== "" && { parent_id: params.parentId }),
+      ...(params.parentId != null && params.parentId !== "" && { parentId: params.parentId }),
       ...(params.labels != null && params.labels.length > 0 && { labels: params.labels }),
     };
     if (params.due != null) {

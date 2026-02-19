@@ -1,0 +1,1 @@
+{"mcpServers":{"todoist-meeting-mcp":{"command":"npx","args":["-y","todoist-meeting-mcp"],"env":{"TODOIST_API_TOKEN":"your_todoist_api_token_here"}}}}

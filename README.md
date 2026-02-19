@@ -26,7 +26,7 @@ This MCP server exposes Todoist as tools to Claude: you can paste meeting notes 
    Todoist → Settings → Integrations → Developer → copy your API token.
 
 2. **Configure Claude Desktop**  
-   Edit (or create) the MCP config file. If it doesn’t exist, create the `Claude` folder and the file:
+   Edit (or create) the MCP config file. If it doesn't exist, create the `Claude` folder and the file:
    - **macOS:** `~/Library/Application Support/Claude/claude_desktop_config.json`
    - **Windows:** `%APPDATA%\Claude\claude_desktop_config.json`
 
@@ -134,7 +134,6 @@ npm run dev
 After cloning and (optionally) adding a remote:
 
 ```bash
-cd todoist-meeting-mcp
 git init
 git add .
 git commit -m "Initial commit: Todoist Meeting MCP server"
