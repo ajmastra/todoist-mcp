@@ -1,7 +1,7 @@
 # Todoist Meeting MCP
 
-[![CI](https://github.com/YOUR_ORG/todoist-meeting-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_ORG/todoist-meeting-mcp/actions/workflows/ci.yml)
-[![Release](https://github.com/YOUR_ORG/todoist-meeting-mcp/actions/workflows/release.yml/badge.svg)](https://github.com/YOUR_ORG/todoist-meeting-mcp/actions/workflows/release.yml)
+[![CI](https://github.com/ajmastra/todist-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/ajmastra/todist-mcp/actions/workflows/ci.yml)
+[![Release](https://github.com/ajmastra/todist-mcp/actions/workflows/release.yml/badge.svg)](https://github.com/ajmastra/todist-mcp/actions/workflows/release.yml)
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 > **Replace `YOUR_ORG` in the badge URLs with your GitHub username or org** so the badges reflect your repo’s CI and release status.
